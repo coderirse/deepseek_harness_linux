@@ -239,8 +239,9 @@ export function createElectronBuilderConfig(
       target: ['nsis'],
     },
     linux: {
-      // The brand mark is shared with the Windows icon; Linux needs no platform-specific mask.
-      icon: fileURLToPath(new URL('../resources/icon-windows.png', import.meta.url)),
+      // Linux panels sit on varied backgrounds, so the icon is the transparent black whale mark
+      // rather than the light rounded tile the Windows shell requires.
+      icon: fileURLToPath(new URL('../resources/icon-linux.png', import.meta.url)),
       category: 'Development',
       // The packaged Linux executable name the CLI launcher template resolves.
       executableName: 'deepseek-harness',
