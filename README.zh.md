@@ -8,6 +8,10 @@ DeepSeek Harness（`dsh`）是由 [DeepSeek AI](https://deepseek.com) 开发的�
 
 文档：[https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+## 关于本构建仓库
+
+本仓库是 `coderirse` 的个人 Linux 构建仓库：跟随上游项目，在 [Releases](https://github.com/coderirse/deepseek_harness_linux/releases) 发布 Linux 桌面产物（AppImage、deb、rpm），起始于上游 `0.2.1-alpha.1`。本项目与 DeepSeek AI 无隶属关系；[上游仓库](https://github.com/deepseek-ai/deepseek-harness)仍是项目及其文档的来源，Linux 发布说明见 [Desktop README](apps/desktop/README.zh.md)。
+
 ## 开发者预览
 
 DeepSeek Harness 处于 _开发者预览_ 阶段，正在快速迭代。**未来将出现破坏兼容性的变更。**

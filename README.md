@@ -8,6 +8,10 @@ It is built on an **everything-is-a-plugin** architecture and powered by [Cordis
 
 Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+## About this build repository
+
+This is `coderirse`'s personal Linux build repository. It follows the upstream project and publishes Linux desktop releases (AppImage, deb, rpm) under [Releases](https://github.com/coderirse/deepseek_harness_linux/releases), starting from upstream `0.2.1-alpha.1`. It is not affiliated with DeepSeek AI; the [upstream repository](https://github.com/deepseek-ai/deepseek-harness) remains the source of the project and its documentation, and the Linux release notes live in the [Desktop README](apps/desktop/README.md).
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**
